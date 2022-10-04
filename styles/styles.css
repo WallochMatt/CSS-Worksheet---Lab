@@ -83,5 +83,18 @@ nav  li {
 
 .tile{
     display: flex;
-    background-image: url("/images/coffee.jpg");
+    flex-wrap: wrap;
+    background-image: url("../images/coffee.jpg");
+}
+
+.actual-size{
+    background-image: url("../images/coffee.jpg");
+    height: 426px;
+    width: 640px;
+}
+
+.big-picture{
+    background-image: url("../images/coffee.jpg");
+    height: 100%;
+    width: 100%;
 }
