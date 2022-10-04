@@ -42,8 +42,8 @@ nav  li {
     border: 1px solid #ff7faa;
     border-radius: 20px;
     text-align: justify;
-
 }
+
 .text-box-background {
     background-color: #b89595;
 }
@@ -51,8 +51,7 @@ nav  li {
 .container-1{
     display: flex;
     align-items: stretch;
-    justify-content: space-around;
-    
+    justify-content: space-around;   
 }
 
 .coffee {
@@ -63,6 +62,26 @@ nav  li {
 .container-2{
     display: flex;
     flex-direction: column;
+}
 
+.panel-1{
+    height: 100vh;
+    width: 100%;
+    background-color: #95b8b8;
+}
 
+.panel-2{
+    height: 100vh;
+    width: 100%;
+    background-color: #9595b8;
+}
+
+.panel-3{
+    height: 100vh;
+    width: 100%;
+}
+
+.tile{
+    display: flex;
+    background-image: url("/images/coffee.jpg");
 }
